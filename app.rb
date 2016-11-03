@@ -13,7 +13,6 @@ get '/' do
 end
 
 post '/' do
-	apiKey = request_header("X-Mifos-API-Key")
 	entity = request_header("X-Fineract-Entity")
 	action = request_header("X-Fineract-Action")
 
